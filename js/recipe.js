@@ -1,5 +1,6 @@
 const RECIPE_PATH = document.location.toString().split('?r=')[1];
 
+// Add all the items from a JS list to a HTML one
 function listApply(listElement, listData) {
     for (let i=0; i < listData.length; i++) {
         const child = document.createElement('li')

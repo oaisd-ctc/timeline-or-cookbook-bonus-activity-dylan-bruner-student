@@ -11,6 +11,12 @@
             "description": "These soft and chewy chocolate cookies have an intense chocolate flavor and almost brownie-like texture. They're one of my all-time faves!",
             "target": "chocolate-cookies.json",
             "image": "chewy-chocolate-cookies.jpg"
+        },
+        {
+            "title": "Homemade Pizza Dough Recipe for Beginners",
+            "description": "This easy pizza dough recipe is great for beginners and produces a soft homemade pizza crust. Skip the pizza delivery because you only need 6 basic ingredients to begin!",
+            "target": "homemade-pizza.json",
+            "image": "homemade-pizza.jpg"
         }
     ]
 }

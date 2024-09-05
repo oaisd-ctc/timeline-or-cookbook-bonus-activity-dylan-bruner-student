@@ -11,6 +11,8 @@ function listApply(listElement, listData) {
 
 // Load the recipe into the page
 fetch(`/recipes/${RECIPE_PATH}`).then((resp) => resp.json()).then((resp) => {
+    document.title = resp.title;
+
     document.getElementById('title').innerHTML = resp.title;
     document.getElementById('serving-size').innerHTML = `Serving Size: ${resp.serving_size}`;
     document.getElementById('preparation').innerHTML = `Prep Time: ${resp.prep_time}`
@@ -18,3 +20,7 @@ fetch(`/recipes/${RECIPE_PATH}`).then((resp) => resp.json()).then((resp) => {
     listApply(document.getElementById('ingredients'), resp.ingredients)
     listApply(document.getElementById('instructions'), resp.instructions)
 });
+
+document.getElementById('submit-button').addEventListener('click', () => {
+    alert(`Sending the feedback: ${document.getElementById('feed-back-text').value}`)
+})

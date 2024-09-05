@@ -1,5 +1,6 @@
 .recipe-container {
-    background-color: green;
+    background-color: white;
+    box-shadow: lightgrey 5px 5px 5px 5px;
 
     display: flex;
     gap: 10px;
@@ -14,4 +15,15 @@
     #title {
         font-size: 2em;
     }
+}
+
+.recipe-container:hover {
+    scale: 98%;
+    transition: 250ms;
+}
+
+#title-text {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
 }

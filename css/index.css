@@ -1,6 +1,7 @@
 .recipe-container {
     background-color: white;
     box-shadow: lightgrey 5px 5px 5px 5px;
+    border-radius: 16px;
 
     display: flex;
     gap: 10px;
@@ -10,6 +11,8 @@
 
     img {
         width: 25vw;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
     }
 
     #title {

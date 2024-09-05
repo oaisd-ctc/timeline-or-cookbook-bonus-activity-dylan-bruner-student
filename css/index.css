@@ -1,0 +1,17 @@
+.recipe-container {
+    background-color: green;
+
+    display: flex;
+    gap: 10px;
+
+    padding: 5px;
+    margin: 5px;
+
+    img {
+        width: 25vw;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+}

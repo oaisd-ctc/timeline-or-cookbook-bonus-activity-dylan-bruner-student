@@ -1,6 +1,16 @@
 {
     "recipes": [
-        "pasta-sauce.json",
-        "chocolate-cookies.json"
+        {
+            "title": "World's Best Pasta Sauce!",
+            "description": "This pasta sauce is excellent in lasagna or as a meat sauce. I use it in my popular lasagna recipe, so I thought I'd share it on its own.",
+            "target": "pasta-sauce.json",
+            "image": "pasta-sauce.jpg"
+        },
+        {
+            "title": "Soft and Chewy Chocolate Cookies",
+            "description": "These soft and chewy chocolate cookies have an intense chocolate flavor and almost brownie-like texture. They're one of my all-time faves!",
+            "target": "chocolate-cookies.json",
+            "image": "chewy-chocolate-cookies.jpg"
+        }
     ]
 }
